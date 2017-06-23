@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of CSS Reset*/
+
+#wrapper{
+    height:570px;
+    width:1000px;
+    background-color: #DDDFD4;
+    padding:15px;
+    font-family: Courier New, Courier, monospace
+}
+
+#header{
+    height: 30px;
+    background-color: #3FB0AC;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#gitBasics{
+    vertical-align: top;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#linkList{
+    display: inline-block;
+    vertical-align: top;
+    margin-left:150px;
+    margin-top: 10px;
+}
+
+.topLinks{
+    color:white;
+    text-decoration: underline;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/*940 px usable width inside content*/
+#content{
+    height: 395px;
+    background-color: #FAE596;
+    margin-bottom: 10px;
+    padding: 15px; 
+    padding-right: 5px;
+}
+
+/*740 px width left on the right of left*/
+#left{
+    background-color: #173F43;
+    height: 375px;
+    width: 180px;
+    padding: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.title1{
+    color: #DDDFD4;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.text{
+    color: #DDDFD4;
+    font-size: 11.6px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#right{
+    vertical-align: top;
+    display:inline-block;
+    /*background-color: purple;*/
+    width: 750px;
+    height: 395px;
+    margin-left: 8px;
+}
+
+.row{
+    width: 745px;
+    height: 118.6px;
+    /*background-color: skyblue;*/
+    margin-bottom: 20px;
+}
+
+.row1{
+    vertical-align: top;
+    display: inline-block;
+    height:98.6px;
+    width: 196px;
+    background-color:#173F43;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.row2{
+    display: inline-block;
+    height:98.6px;
+    width: 320px;
+    background-color:#173F43;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+#row3{
+    background-color: #173F43;
+    width: 690px;
+    height: 98.6px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.title2{
+    font-size: 16px;
+    font-weight: bold;
+    color:#DDDFD4;
+    /*margin-bottom: 5px;*/
+}
+
+.text2{
+    color: #DDDFD4;
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#footer{
+    text-align: center;
+    font-size: 13px;
+    vertical-align: bottom;
+    background-color: #3FB0AC;
+    height:20px;
+    padding: 20px;
+}
+
